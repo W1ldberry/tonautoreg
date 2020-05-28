@@ -1,0 +1,18 @@
+{
+  "description": "Config file for custodian confirmation. Use with autoconfirm.py script",
+  "wallet": {
+        "keyfile": "path to keyfile or seed phrase"
+  },
+  "path": {
+      "keysdir": "/home/user/ton-keys",
+      "election_folder": "/home/user/tonautoreg/status",
+      "repo": "/home/user/net.ton.dev"
+  },
+  "notifications": {
+      "owner": {
+          "type": "telegram",
+          "params": {"token": "111111:token", "chat_ids": ["222222"]}
+      }
+  },
+  "email": {}
+}

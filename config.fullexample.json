@@ -1,0 +1,44 @@
+{
+    "wallet": {
+        "msig_addr": "-1:raw_wallet_address",
+        "keyfile": "/home/user/ton-keys/msig.keys.json",
+        "stake_value": "all",
+        "stake_factor": 3
+    },
+    "path": {
+        "keysdir": "/home/user/ton-keys",
+        "repo": "/home/user/net.ton.dev",
+        "election_folder": "/home/user/ton-elections",
+        "tonos-cli": "/home/user/tonos-cli/tonos-cli",
+        "validator-engine-console": "/home/user/net.ton.dev/ton/build/validator-engine-console/validator-engine-console",
+        "client_key": "/home/user/ton-keys/client",
+        "server_pub_key": "/home/user/ton-keys/server.pub",
+        "server_url": "127.0.0.1:3030",
+        "fift": "/home/user/net.ton.dev/ton/build/crypto/fift",
+        "fift_includes": "/home/user/net.ton.dev/ton/crypto/fift/lib:/home/user/net.ton.dev/ton/crypto/smartcont",
+        "validator-elect-req": "validator-elect-req.fif",
+        "validator-elect-signed": "validator-elect-signed.fif",
+        "recover-stake": "recover-stake.fif",
+        "abi": "/home/user/net.ton.dev/configs/SafeMultisigWallet.abi.json"
+    },
+    "notifications": {
+        "owner": {
+            "type": "telegram",
+            "params": {"token": "111111:token", "chat_ids": ["222222"]}
+        },
+        "0x5d64eb83d13a46a2eb8b93d4cf27dd76ecd6c2880ae65": {
+            "type": "telegram",
+            "params": {"token": "111111:token", "chat_ids": ["222222"]}
+        },
+        "0x9199fa38a713ff1306f3ea88282634fb28ef0bc1d2ee21": {
+            "type": "email",
+            "params": {"address": "custodian@gmail.com"}
+        }
+    },
+    "email": {
+        "login": "name@gmail.com",
+        "password": "passsword",
+        "smtp": "smtp.gmail.com",
+        "port": 587
+    }
+}

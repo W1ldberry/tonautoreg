@@ -1,0 +1,24 @@
+{
+  "description": "Config file for registration in elections. Use with autoreg.py script",
+  "wallet": {
+        "stake_value": 30001000000000,
+        "stake_factor": 3
+  },
+  "path": {
+      "keysdir": "/home/user/ton-keys",
+      "election_folder": "/home/user/tonautoreg/status",
+      "repo": "/home/user/net.ton.dev"
+  },
+  "notifications": {
+      "owner": {
+          "type": "telegram",
+          "params": {"token": "111111:token", "chat_ids": ["222222"]}
+      }
+  },
+  "email": {
+      "login": "name@gmail.com",
+      "password": "passsword",
+      "smtp": "smtp.gmail.com",
+      "port": 587
+  }
+}

@@ -1,0 +1,2 @@
+*/10 * * * *     cd /home/user/tonautoreg && python3 /home/user/tonautoreg/autoreg.py >> /home/user/tonautoreg/status/autoreg.log 2>&1
+*/5 * * * *     cd /home/user/tonautoreg && python3 /home/user/tonautoreg/autoconfirm.py >> /home/user/tonautoreg/status/autoconfirm.log 2>&1
